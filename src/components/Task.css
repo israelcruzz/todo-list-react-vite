@@ -1,0 +1,26 @@
+.task-container {
+  background-color: #444;
+  margin: 8px 0;
+  padding: 15px 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.details-task,
+.delete-task {
+  color: chartreuse;
+  font-size: 18px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.buttons-container {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+}
